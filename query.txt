@@ -1,0 +1,26 @@
+{
+  "ConnectionStrings": {
+    "dbserver" : "DESKTOP-79JOQKV",
+    "dbname" : "PracticeData",
+    "dbuser" : "user01",
+    "dbpass" : "admin"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
+
+
+///////query
+
+CREATE TABLE Employee(
+ id uniqueidentifier CONSTRAINT PK_Employee PRIMARY KEY,
+ name nvarchar(50),
+ department nvarchar(50),
+ salary nvarchar(50)
+);
